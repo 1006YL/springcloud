@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/On-learing-consumer-dept-ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learing-consumer-dept-ribbon/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learing-consumer-hystrix-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learing-consumer-hystrix-dashboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-config-client-3355/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-config-client-3355/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-config-server-3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-config-server-3344/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-consumer-dept80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-consumer-dept80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-eureka-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-eureka-7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-eureka-7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-eureka-7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-eureka-7003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-eureka-7003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-provider-dept8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-provider-dept8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-provider-dept8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-provider-dept8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-provider-dept8003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-provider-dept8003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/On-learning-zuul/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

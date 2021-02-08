@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="On-learning-config-client-3344" />
+        <module name="On-learning-consumer-dept80" />
+        <module name="On-learning-config-server-3344" />
+        <module name="On-learning-config-client-3355" />
+        <module name="On-learing-consumer-dept-ribbon" />
+        <module name="On-learing-consumer-hystrix-dashboard" />
+        <module name="Online Learning-api" />
+        <module name="On-learning-provider-dept8003" />
+        <module name="On-learning-api" />
+        <module name="On-learning-zuul" />
+        <module name="On-learning-provider-dept8002" />
+        <module name="On-learning-provider-dept8001" />
+        <module name="On-learning-eureka-7003" />
+        <module name="On-learning-eureka-7002" />
+        <module name="On-learning-eureka-7001" />
+        <module name="Online Learning-provider-dev8001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Online Learing" target="1.8" />
+      <module name="Online Learning-api" target="1.8" />
+      <module name="Online Learning-provider-dev8001" target="1.8" />
+      <module name="OnlineLearningcloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

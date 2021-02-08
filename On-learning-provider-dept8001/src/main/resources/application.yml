@@ -1,0 +1,43 @@
+server:
+  port: 8001
+mybatis:
+  typeAliasesPackage: com.yl.entities
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #开启MyBatis的二级缓存
+    cache-enabled: true
+    mapper-locations: classpath*:mappers/*Mapper.xml
+spring:
+  application:
+    name: provider-service
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/study?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      poolName: hikari数据库连接池
+      maximumPoolSize: 200
+      minimum-idle: 5
+      autoCommit: true
+      idleTimeout: 600000
+      maxLifetime: 1800000
+      connectionTimeout: 10000
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+eureka:
+  instance:
+    hostname: localhost:8001
+    instance-id: localhost:8001
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://eurka7001:7001/eureka/,http://eurka7002:7002/eureka/,http://eurka7003:7003/eureka/

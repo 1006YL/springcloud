@@ -1,0 +1,31 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: On-learning-zuul
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eurka7001:7001/eureka/,http://eurka7002:7002/eureka/,http://eurka7003:7003/eureka/
+  instance:
+    instance-id: zuul9527.com
+    prefer-ip-address: true
+
+info:
+  app.name: zuul
+  company.name: myhome
+
+
+zuul:
+  # 路由相关配置
+  # 原来访问路由 eg:http://www.cspStudy.com:9527/springcloud-provider-dept/dept/get/1
+  # zull路由配置后访问路由 eg:http://www.cspstudy.com:9527/haust/mydept/dept/get/1
+  routes:
+    mydept.serviceId: provider-service # eureka注册中心的服务提供方路由名称
+    mydept.path: /onlearning/**
+  # 不能再使用这个路径访问了，*： 忽略,隐藏全部的服务名称~
+  ignored-services: "*"
+  prefix: /yang

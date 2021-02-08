@@ -1,0 +1,13 @@
+server:
+  port: 9001
+
+#Eureka的配置
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:  #端口映射改将127.0.0.1分别映射到eureka7001，7002，7003为了模拟多台计算机
+      defaultZone: http://eurka7001:7001/eureka/,http://eurka7002:7002/eureka/,http://eurka7003:7003/eureka/
+# 开启降级feign.hystrix
+feign:
+  hystrix:
+    enabled: true
